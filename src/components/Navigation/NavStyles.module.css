@@ -1,12 +1,12 @@
 * {
-  
+
   text-decoration: none;
   margin: 0px;
 }
 
 
 .header_container {
-  
+  font-family: Alba;
    display: flex;
    justify-content: flex-end;
    align-items: center;

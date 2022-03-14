@@ -5,8 +5,16 @@
     src: local('Alba'), url('./alba.super.ttf') format('truetype');
   }
 
+  @font-face {
+    font-family: 'Quicksand';
+    src: url('./Quicksand-Light.woff2') format('woff2'),
+        url('./Quicksand-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+
   body {
-    font-family: Alba;
+    font-family: Quicksand;
     color: rgb(140, 54, 8); 
     /* background: radial-gradient(circle, rgb(147, 247, 250) 0%, rgb(179, 38, 249) 200%); */
      background: radial-gradient(circle, rgb(147, 247, 250) 20%, rgb(179, 38, 249) 200%);
