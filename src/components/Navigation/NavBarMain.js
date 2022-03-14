@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./NavStyles.module.css";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function NavBarMain() {
   return (
     <>
-      <div className={styles.header_container}>
+      <motion.div initial={{ y: -250 }}   transition={{ delay: 0.5, type: 'spring', stiffness: 120 }} animate={{ y: -10 }} className={styles.header_container}>
         <div className={styles.logo_position}>
           <Link className={styles.header_logo} to="/">
             <h1>Bots Artifact</h1>
@@ -13,17 +14,17 @@ export default function NavBarMain() {
         </div>
 
         <div >
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'orange' }} to="/news">
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'rgb(233, 170, 54)' }} to="/news">
             News
           </Link>
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'yellow' }} to="/games">
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'rgb(189, 77, 13)' }} to="/games">
             Games
           </Link>
           <Link style={{ padding: '20px', fontSize: '1.5em', color: 'green'}} to="/blog">
             Blog
           </Link>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

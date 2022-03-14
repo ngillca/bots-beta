@@ -7,6 +7,7 @@
 
   body {
     font-family: Alba;
+    color: rgb(140, 54, 8); 
     /* background: radial-gradient(circle, rgb(147, 247, 250) 0%, rgb(179, 38, 249) 200%); */
      background: radial-gradient(circle, rgb(147, 247, 250) 20%, rgb(179, 38, 249) 200%);
 }
