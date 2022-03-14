@@ -17,10 +17,10 @@ export default function NavBarMain() {
           <Link style={{ padding: '20px', fontSize: '1.5em', color: 'rgb(233, 170, 54)' }} to="/news">
             News
           </Link>
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'rgb(189, 77, 13)' }} to="/games">
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'green' }} to="/games">
             Games
           </Link>
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'green'}} to="/blog">
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'rgb(233, 233, 23)'}} to="/blog">
             Blog
           </Link>
         </div>
