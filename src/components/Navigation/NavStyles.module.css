@@ -1,0 +1,31 @@
+* {
+  
+  text-decoration: none;
+  margin: 0px;
+}
+
+
+.header_container {
+  
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 20px;
+   /* background-color: rgb(230, 189, 189); */
+}
+
+.logo_position {
+ 
+  flex: 1;
+}
+
+.header_logo {
+  /* color: rgb(253, 214, 221); */
+  color: rgb(189, 77, 13);
+}
+
+@media (min-width:480px)  { 
+
+}
+

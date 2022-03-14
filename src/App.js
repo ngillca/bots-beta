@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import HeroPage from './HeroPage';
+import NewsMain from "./components/News/NewsMain";
+import GamesMain from "./components/Games/GamesMain";
+import BlogsMain from "./components/Blogs/BlogsMain";
+
+import NavBarMain from "./components/Navigation/NavBarMain";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <NavBarMain/>
+        <Routes>
+          <Route path="/" exact element={<HeroPage />}></Route>
+          <Route path="news" element={<NewsMain />}></Route>
+          <Route path="games" element={<GamesMain />}></Route>
+          <Route path="blog" element={<BlogsMain />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
