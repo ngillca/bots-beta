@@ -142,10 +142,10 @@ export default function HeroPage() {
         transition={{ delay: 0.5 }}
         className={styles.hero_landing1}
       >
-        <div className={styles.item1}>
+        <div className={styles.item_text}>
           <h2>Play games to gain a better understanding </h2>
         </div>
-        <div className={styles.item2}>
+        <div className={styles.item_button}>
           {/* THIS WILL BE IMAGE NOT BUTTON */}
           <button className={styles.pushable}>
   <span className={styles.front}>
@@ -161,7 +161,7 @@ export default function HeroPage() {
         transition={{ delay: 0.5 }}
         className={styles.hero_landing1}
       >
-        <div className={styles.item1}>
+        <div className={styles.item_button}>
           {/* THIS WILL BE IMAGE NOT BUTTON */}
           <button className={styles.pushable}>
   <span className={styles.front}>
@@ -170,7 +170,7 @@ export default function HeroPage() {
 </button>
         </div>
 
-        <div className={styles.item2}>
+        <div className={styles.item_text}>
           <h2>Check out the blog to tickle your brain</h2>
         </div>
       </motion.div>
@@ -181,10 +181,10 @@ export default function HeroPage() {
         transition={{ delay: 0.5 }}
         className={styles.hero_landing1}
       >
-        <div className={styles.item1}>
+        <div className={styles.item_text}>
           <h2>Shop designs</h2>
         </div>
-        <div className={styles.item2}>
+        <div className={styles.item_button}>
           {/* THIS WILL BE IMAGE NOT BUTTON */}
           <button className={styles.pushable}>
   <span className={styles.front}>

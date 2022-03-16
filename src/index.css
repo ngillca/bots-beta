@@ -19,9 +19,16 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'mottertektura';
+    src: url('./mottertektura.ttf') format('truetype');
+    font-style: normal;
+  }
+
   body {
-    font-family: Alba;
-    color: rgb(140, 54, 8); 
+    font-family: Quicksand;
+  
+    color: rgb(252, 252, 252);
     /* background: radial-gradient(circle, rgb(147, 247, 250) 0%, rgb(179, 38, 249) 200%); */
      background: radial-gradient(circle, rgb(147, 247, 250) 20%, rgb(179, 38, 249) 200%);
 }
