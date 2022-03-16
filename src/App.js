@@ -7,17 +7,21 @@ import NavBarMain from "./components/Navigation/NavBarMain";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import SourceAnimation from './Animations/SourceAnimation';
+
 function App() {
   return (
     <>
       <BrowserRouter>
         <NavBarMain/>
+      
         <Routes>
           <Route path="/" exact element={<HeroPage />}></Route>
           <Route path="blog" element={<BlogsMain />}></Route>
           <Route path="games" element={<GamesMain />}></Route>
           <Route path="shop" element={<NewsMain />}></Route>
         </Routes>
+
       </BrowserRouter>
     </>
   );
