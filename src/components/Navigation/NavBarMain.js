@@ -14,13 +14,13 @@ export default function NavBarMain() {
         </div>
 
         <div >
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'rgb(233, 170, 54)' }} to="/news">
-            Games
-          </Link>
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'green' }} to="/games">
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'navy' }} to="/blog">
             Blog
           </Link>
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'navy'}} to="/blog">
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'green' }} to="/games">
+            Games
+          </Link>
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'orange'}} to="/shop">
             Shop
           </Link>
         </div>

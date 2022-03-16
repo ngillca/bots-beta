@@ -14,9 +14,9 @@ function App() {
         <NavBarMain/>
         <Routes>
           <Route path="/" exact element={<HeroPage />}></Route>
-          <Route path="news" element={<NewsMain />}></Route>
-          <Route path="games" element={<GamesMain />}></Route>
           <Route path="blog" element={<BlogsMain />}></Route>
+          <Route path="games" element={<GamesMain />}></Route>
+          <Route path="shop" element={<NewsMain />}></Route>
         </Routes>
       </BrowserRouter>
     </>

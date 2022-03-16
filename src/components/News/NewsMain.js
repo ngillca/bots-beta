@@ -8,7 +8,7 @@ export default function NewsMain() {
       animate={{ x: 0 }}
       transition={{ type: "spring", delay: 0.2 }}
     >
-      <h2>News</h2>
+      <h2>Shop</h2>
     </motion.div>
   );
 }
