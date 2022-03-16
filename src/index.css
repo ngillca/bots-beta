@@ -13,8 +13,14 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'KoolBeans-eerm';
+    src: url('./KoolBeans-eerm.ttf') format('truetype');
+    font-style: normal;
+  }
+
   body {
-    font-family: Quicksand;
+    font-family: KoolBeans-eerm;
     color: rgb(140, 54, 8); 
     /* background: radial-gradient(circle, rgb(147, 247, 250) 0%, rgb(179, 38, 249) 200%); */
      background: radial-gradient(circle, rgb(147, 247, 250) 20%, rgb(179, 38, 249) 200%);

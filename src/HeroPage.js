@@ -69,7 +69,7 @@ export default function HeroPage() {
         transition={{ type: "spring", delay: 0.2 }}
       >
         <h2>
-          Welcome to Bots Artifact - Explore the world of Science {"&"} Technology
+          Welcome to Bots Artifact - Explore the world of Science and Technology
         </h2>
       </motion.div>
 
@@ -99,7 +99,7 @@ export default function HeroPage() {
         {/* Our main source of light, also casting our shadow */}
         <directionalLight
           castShadow
-          position={[0, 10, 0]}
+          position={[0, 20, 0]}
           intensity={1.5}
           shadow-mapSize-width={1024}
           shadow-mapSize-height={1024}
@@ -123,7 +123,7 @@ export default function HeroPage() {
             <shadowMaterial attach="material" opacity={0.3} />
           </mesh>
           <SpinningMesh
-            position={[0, 1, 0]}
+            position={[0, 0.02, 0]}
             color="lime"
             args={[3, 2, 1]}
             speed={2}
@@ -182,7 +182,7 @@ export default function HeroPage() {
         className={styles.hero_landing1}
       >
         <div className={styles.item1}>
-          <h2>Shop to designs</h2>
+          <h2>Shop designs</h2>
         </div>
         <div className={styles.item2}>
           {/* THIS WILL BE IMAGE NOT BUTTON */}
