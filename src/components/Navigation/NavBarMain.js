@@ -9,19 +9,19 @@ export default function NavBarMain() {
       <motion.div initial={{ y: -250 }}   transition={{ delay: 0.2, type: 'spring', stiffness: 120 }} animate={{ y: -10 }} className={styles.header_container}>
         <div className={styles.logo_position}>
           <Link className={styles.header_logo} to="/">
-            <h1>Bots Artifact</h1>
+            <h1 className={styles.logo_gradient}>Bots Artifact</h1>
           </Link>
         </div>
 
         <div >
           <Link style={{ padding: '20px', fontSize: '1.5em', color: 'rgb(233, 170, 54)' }} to="/news">
-            News
-          </Link>
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'rgb(233, 233, 23)' }} to="/games">
             Games
           </Link>
-          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'green'}} to="/blog">
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'green' }} to="/games">
             Blog
+          </Link>
+          <Link style={{ padding: '20px', fontSize: '1.5em', color: 'navy'}} to="/blog">
+            Shop
           </Link>
         </div>
       </motion.div>

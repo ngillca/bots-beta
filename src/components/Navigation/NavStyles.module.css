@@ -27,7 +27,17 @@
   color: rgb(189, 77, 13);
 }
 
+.logo_gradient {
+
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(124, 82, 4), brown, #fff892);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
 @media (min-width:480px)  { 
 
 }
+
 
