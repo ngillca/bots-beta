@@ -175,11 +175,7 @@ export default function HeroPage() {
                 <planeBufferGeometry attach="geometry" args={[100, 100]} />
                 <shadowMaterial attach="material" opacity={0.3} />
               </mesh>
-              <SpinningMesh
-           position={[-2, 1, -5]}
-           color="lightblue"
-           speed={6}
-              />
+    
               <SpinningMesh
                 
 
@@ -247,11 +243,7 @@ export default function HeroPage() {
                 args={[3, 2, 1]}
                 speed={2}
               />
-              <SpinningMesh
-                position={[-2, 1, -5]}
-                color="lightblue"
-                speed={6}
-              />
+       
               <SpinningMesh position={[5, 1, -2]} color="navy" speed={6} />
             </group>
             {/* Allows us to move the canvas around for different prespectives */}
@@ -314,12 +306,7 @@ export default function HeroPage() {
                 <planeBufferGeometry attach="geometry" args={[100, 100]} />
                 <shadowMaterial attach="material" opacity={0.3} />
               </mesh>
-              <SpinningMesh
-                position={[4, 0.02, 0]}
-                color="red"
-                args={[3, 2, 1]}
-                speed={2}
-              />
+      
               <SpinningMesh
                 position={[-2, 1, -5]}
                 color="lightblue"

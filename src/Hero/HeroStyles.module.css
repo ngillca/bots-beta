@@ -29,7 +29,7 @@ button {
 }
 
 .item_text {
-  flex: 1;
+  flex: 3;
   padding: 1%;
   align-items: center;
   color: white;
